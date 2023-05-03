@@ -84,6 +84,7 @@ img {
         text-decoration: none;
         padding: 24px 0;
         margin-right: 76px;
+        position: relative;
     }
 
     .link-menu:hover,
