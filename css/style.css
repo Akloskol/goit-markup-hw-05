@@ -598,26 +598,20 @@ img {
                 padding: 0;
                 cursor: pointer;
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            
-           
         }
 
-                .modal-close-btn:is(:hover, :focus) {
-                
-                    background-color: #404bbf;
-                    border: none;
-                }
+        .modal-close-btn:is(:hover, :focus) {
+            background-color: #404bbf;
+            border: none;
+        }
         
-                
+        .my-icon {
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
 
-
-                .my-icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .my-icon:is(:hover, :focus) {
-      fill: #ffffff;
-  }
+        .my-icon:is(:hover, :focus) {
+            fill: #ffffff;
+        }
         
                 
         
