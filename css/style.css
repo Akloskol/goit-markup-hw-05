@@ -445,7 +445,7 @@ img {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: в який записана css змінна зі значенням #f4f4fd;
+        color: var(--main-ag-color);
         padding: 40px 32px;
         background-color: #4d5ae5;
         height: 100%;
