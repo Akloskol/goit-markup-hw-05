@@ -587,6 +587,7 @@ img {
             position: absolute;
             top: 24px;
             right: 24px;
+            width: 24px;
             height: 24px;
             border-radius: 50%;
             display: flex;
@@ -602,7 +603,12 @@ img {
            
         }
 
-        .modal-close-btn:is(:hover, :focus){
-            background: #f2f2f2;
+        .modal-close-btn:hover {
+            background-color: #404bbf;
+            border: none;
+        }
+
+        .modal-close-btn:focus{
+            background-color: #404bbf;
             border: none;
         }
