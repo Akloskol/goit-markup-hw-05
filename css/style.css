@@ -612,6 +612,11 @@ img {
         .my-icon:is(:hover, :focus) {
             fill: #ffffff;
         }
+
+                .modal-close-btn:hover .my-icon,
+                .modal-close-btn:focus .my-icon {
+                    fill: #ffffff;
+                }
         
                 
         
