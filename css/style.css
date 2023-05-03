@@ -603,12 +603,9 @@ img {
            
         }
 
-        .modal-close-btn:hover {
+        .modal-close-btn:is(:hover, :focus) {
             background-color: #404bbf;
             border: none;
         }
 
-        .modal-close-btn:focus{
-            background-color: #404bbf;
-            border: none;
-        }
+        
