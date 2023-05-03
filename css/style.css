@@ -604,19 +604,11 @@ img {
             background-color: #404bbf;
             border: none;
         }
-        
-        .my-icon {
-            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .my-icon:is(:hover, :focus) {
+            
+        .modal-close-btn:hover .my-icon,
+        .modal-close-btn:focus .my-icon {
             fill: #ffffff;
         }
-
-                .modal-close-btn:hover .my-icon,
-                .modal-close-btn:focus .my-icon {
-                    fill: #ffffff;
-                }
         
                 
         
