@@ -594,6 +594,7 @@ img {
             cursor: pointer;
         }
 
-        .modal-close-btn:hover {
+        .modal-close-btn:is(:hover, :focus){
             background: #f2f2f2;
+            border: none;
         }
