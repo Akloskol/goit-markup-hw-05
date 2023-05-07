@@ -260,6 +260,7 @@ img {
     }
 
     .income-lak{
+        list-style-type: none;
         width: 40px;
         height: 40px;
         
