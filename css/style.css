@@ -642,6 +642,7 @@ img {
         .modal-close-button:focus {
             background-color: #404bbf;
             border: none;
+            fill: #ffffff;
         }
             
         .my-icon{
@@ -650,7 +651,7 @@ img {
 
         .my-icon:hover,
         .my-icon:focus {
-            fill: #ffffff;
+            
         }
 
         
